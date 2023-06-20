@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "642a656db6ee19e550538a05"
+  },
+  "fullName": "Developer",
+  "email": "developer@gmail.com",
+  "password": "$2b$05$nzTMvhvuTvEX9Tk2OemLrOWeeOHw9ijtu9Z0SCNe7jG/ccUacnnfu",
+  "role": "carniqUser",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-04-03T05:34:37.412Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-03T05:34:37.413Z"
+  },
+  "__v": 0,
+  "designation": "Developer"
+}]

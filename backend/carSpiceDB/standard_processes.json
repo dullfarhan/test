@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "644919333dc6cbd369a3e2c9"
+  },
+  "name": "ASPICE Process Landscape",
+  "description": [
+    {
+      "id": "item1",
+      "name": "Scope of the process landscape",
+      "data": "<p>The following processes are in the scope of this process landscape:</p><ol><li>MAN.3 Project Management</li><li>SUP.8 Configuration Management</li><li>SWE.1 Software Requirements Analysis</li><li>SUP.1 Quality Assurance</li><li>SYS.2 System Requirements Analysis</li><li>12313232</li></ol>"
+    },
+    {
+      "id": "item2",
+      "name": "Process landscape diagram",
+      "data": "<p>The process landscape diagram is shown below:</p>"
+    },
+    {
+      "id": "item3",
+      "name": "Process performance objectives",
+      "data": "<p>The process performance objectives are defined and monitored to ensure the effective application of the process in the scope of the product development. The performance objectives can be either qualitative or quantitative. At a minimum, they should cover the following:</p>",
+      "subitem": [
+        {
+          "id": "subitem1",
+          "name": "Requirements for the project activities to fulfil the purpose of the process such as",
+          "data": "<ul><li>Effort: the completion of the project within the estimated efforts.</li><li>Resources usage including human and infrastructure: the completion of the project within the estimated resources.</li><li>Schedule: on-time completion of the planned milestones without any delay which is not agreed with the customer.</li><li>Key Performance Indicators (KPIs): measure and achieve the KPIs described in the standard process.</li><li>Process cycle time and frequency: the iteration cycle for the product and the process shall be according to the defined work packages and the project management methods used such as Scrum.</li></ul>"
+        },
+        {
+          "id": "subitem2",
+          "name": "Requirements for the project activities to fulfil the purpose of the process such as",
+          "data": "<ul><li>Compliance with internal standards: Adherence to standard or process which is applicable to project or organization</li><li>Compliances to customer standards, norms, laws, etc.: adherence to any customer-specific standards</li><li>12131323131</li></ul>"
+        },
+        {
+          "id": "subitem3",
+          "name": "Consideration of stakeholder requirements",
+          "data": "<ul><li>Adherence to any stakeholder-specific standards, processes, etc</li></ul>"
+        }
+      ]
+    },
+    {
+      "id": "item4",
+      "name": "Tailoring Guidelines",
+      "data": "<p>No tailoring is allowed on this process page.</p>"
+    }
+  ],
+  "createdBy": {
+    "$oid": "642a656db6ee19e550538a05"
+  },
+  "createdAt": {
+    "$date": "2023-04-26T12:29:39.346Z"
+  },
+  "updatedAt": {
+    "$date": "2023-04-26T12:29:39.346Z"
+  },
+  "__v": 0
+}]

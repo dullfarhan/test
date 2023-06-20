@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= name %> has invited you to join the carSPICE</title>
+    <style>
+      p {
+        color: black;
+        text-decoration: none;
+        font-size: 12px;
+        margin: 2px;
+      }
+      a {
+        text-decoration: none;
+        color: rgb(9, 124, 255);
+        margin: 20px opx;
+        font-weight: 500;
+        font-size: 17px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h4><%= name %> has invited you to join the carSPICE</h4>
+    <div style="text-align: center;">
+      <img
+        src="https://prolinkinfotech.com/wp-content/uploads/2023/04/cropped-PNG-01.png"
+        alt="carspice logo"
+        style="margin: 50px 0px;width: 250px;"
+      />
+    </div>
+    <p>Dear user,</p>
+    <p>
+      You are invited to join the carSPICE with the email address <%= email %>.
+      Please complete your registration by clicking on the following
+    </p>
+    <div style="text-align: center; margin: 15px 0px;"><a href="<%= link %>" ">Yes, I confirm my registration.</a></div>
+    
+    <h6 style="margin: 50px 0px; font-size: 15px; font-weight: 500 ;color: black;">
+      Your CARNIQ Service Team
+    </h6>
+
+    <div style="text-align: center; border-bottom: 1px solid lightgray; border-top:1px solid lightgray;">
+      <div style="padding: 25px 0px;">
+      <p>Legal notice</p>
+      <p>Data protection policy</p>
+      <p>Contact</p>
+      <p>CARNIQ Technologies GmbH</p>
+      <p>© Copyright <%= new Date().getFullYear() %> All rights reserved.</p>
+    </div>
+    </div>
+  </body>
+</html>

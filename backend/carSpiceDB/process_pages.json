@@ -1,0 +1,579 @@
+[{
+  "_id": {
+    "$oid": "643e6e19ea9e8a5697975a0d"
+  },
+  "name": "MAN.3 Project Management",
+  "main_description": [
+    {
+      "id": "item1",
+      "name": "Objective",
+      "data": "The objective of this process is to identify, establish and control the project activities and required resources for the successful execution of the project or the product development.",
+      "bestPractices": "The objective described is according to ASPICE Version 3.1 and VDA Automotive SPICE Guidelines Edition 2017. It is sufficient to achieve the required maturity up to ASPICE Level 3. Use the below table to extend the objective of the process if necessary.",
+      "tailoringExample": ""
+    },
+    {
+      "id": "item2",
+      "name": "Activity Diagram",
+      "data": "The activity diagram of the process MAN.3 Project Management is as shown below:"
+    },
+    {
+      "id": "item3",
+      "name": "Activities",
+      "data": "The following activities are performed in the scope of the process MAN.3 Project Management:",
+      "subitem": [
+        {
+          "id": "subitem1",
+          "name": "Scope of the project and timeline",
+          "data": "<p>The project shall be described so that the scope of work is documented in terms of goal, content, motivation, boundaries, and constraints of the project. The responsibilities of the affected party shall be documented for example system development, software development, software testing, etc.</p> <p> The project timeline shall be defined based on the scope, context, and complexity of the project. The project timeline shall be consistent with the customer timeline and this shall be visible in the project plan.</p>",
+          "bestPractices": "<ol><li>Be specific in defining the scope of the project. Clearly describe what is not in your scope!</li> <li>It is not necessary to write down all the information. If the relevant information is available in any of the project documents, provide the reference to the document/section.</li><li>If the scope of the project changes during the project, make sure to update the section accordingly.</li><li>The work done during the quotation phase includes defining scope, timeline,</li></ol>",
+          "tailoringExample": "The objective of MyCompany is to deliver quality software to MyTier1 within the given budget and timeline. This project may contribute significantly to the revenue of MyCompany and successful execution may lead to similar new projects from the other customers. <br /><br />  In the scope of this project, MyCompany is responsible for the development of the AUTOSAR compliant software as per ASPICE Level 3 and ISO 26262 ASIL B. MyTier1 is responsible for the development at the system level and MyOEM is responsible at the vehicle level. My SupplierA is responsible for the delivery of the AUTOSAR Basic Software (BSW) Stack and MySupplierB is responsible for the delivery of   the Microcontroller Abstraction Layer (MCAL) stack. Automotive cybersecurity (ISO 21434) is out of scope. <br /><br /> The project timeline consistent with the MyTier1 timeline and MyOEM timeline is available in the project plan available here: <a>PasteLinkHere</a>"
+        },
+        {
+          "id": "subitem2",
+          "name": "Feasibility study",
+          "data": "A feasibility study has to be conducted to evaluate if the project can be successfully executed considering the technical feasibility concerning time, budget, and resources. The feasibility study shall document the factors considered along with the identified risks and the mitigation action. The mitigation actions shall be planned and tracked to closure during the execution of the project.",
+          "bestPractices": "<ol><li>The feasibility study is performed during the contract phase before the start of the project.</li> <li>Record all the risks identified during the feasibility study using Risk Management tickets in Jira, and monitor and track these risks to closure with suitable mitigation actions.</li><li>A committee consisting of relevant experts can be formed to perform the feasibility study</li></ol>",
+          "tailoringExample": "A feasibility study has been conducted to evaluate the technical feasibility of the project considering time, budget, and resources. The report can be found here: <a>PasteLinkHere</a>"
+        },
+        {
+          "id": "subitem3",
+          "name": "Project activities",
+          "data": "<p>The execution of the project activities shall be planned so that several, manageable work packages shall be defined with a reasonable outcome. The defined work packages shall enable adequate project progress monitoring and shall be defined based on the timeline and estimation of the project</p> <p>The work packages shall contain the activities related to engineering, management, and supporting processes. The work packages shall be  described in detail to include the dependencies between the activities, required input, and output work products for each of the activities.</p> <p>Agile methodologies such as Scrum, Kanban, etc. can be used for the monitoring and adjustment of the project activities. At any point in time, detailed (task level) planning for the next two releases shall be available.</p> <p> A sufficient number of change requests, problems, and verification issues shall be expected to be handled during the project execution. The project schedule shall be defined, keeping in mind the required time and effort to accommodate such requests. Also, the vacation of team members and the planning buffer shall be considered while planning the project activities.</p>",
+          "bestPractices": "<ol><li>High-level (functionality level) planning shall be available for the complete project and detailed (task level) planning of activities shall be available for at least the next two releases.</li> <li>Any delays in the timeline or canceling of functionalities without the agreement with the stakeholders may lead to downrating during the ASPICE assessment.</li><li>A buffer time can be included in each sprint and work package to enable the project teams to handle unplanned change requests, problems, and verification issues during the project execution.</li></ol>",
+          "tailoringExample": "The project activities are planned in manageable sizes of work packages and recorded in the project plan available here: <a>PasteLinkHere</a> <br /><br /> The monitoring and adjustment of the project activities are performed according to Scrum methodology."
+        },
+        {
+          "id": "subitem4",
+          "name": "Estimates, and resources",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "<ol><li>The used estimation method shall be explicitly mentioned.</li> <li>Resources shall also be planned for the project management activities along with allocation and monitoring to ensure the successful execution of project management activities.</li><liA committee consisting of relevant experts can be formed to perform the estimation based on the chosen estimation method.</li></ol>",
+          "tailoringExample": "The estimation method NameOfEstimationMethod is used. The detailed project estimation can be found here: <a>PasteLinkHere</a> <br /><br /> The list of tools, licenses and hardware resources used in the project are available in the tool list placed here: <a>PasteLinkHere</a>"
+        },
+        {
+          "id": "subitem5",
+          "name": "Skills, knowledge, and experience",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "<ol><li>Identify the required skills to execute the project and rate each of the team members for their level of expertise in these skills</li> <li>Not all skills are mandatory for all team members. For example, programming skills could be optional for a project manager or quality manager.</li></ol>",
+          "tailoringExample": "The skill matrix of the project team including the training plan is available here: <a>PasteLinkHere</a>"
+        },
+        {
+          "id": "subitem6",
+          "name": "Project schedules, interfaces, and agreed commitments",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "<ol><li>The critical path in the project can be identified using the dependencies between the activities. This can be tracked in the project plan and Jira project by linking the dependent activities.</li> <li>Remember to plan all the project-related meetings along with the project management activities in the project plan.</li><li>The work packages have to be formed adequately based on the size and complexity of the project.</li><li>If there are various levels of project management involved such as system, software, hardware, etc., then the schedules of different levels shall be linked to provide a clear view of project execution.</li><li>The degree of fulfillment of activities can be tracked using both or either both ways. One way is to measure results against the time and duration which is to measure the actual results in the given time and duration and the other is to measure the capacity against the costing position which is to measure the booked effort to the planned effort</li></ol>",
+          "tailoringExample": "The project activities including the engineering, management, and supporting processes recorded in the project plan available here: <a>PasteLinkHere</a> <br /><br /> The monitoring and adjustment of the project activities are done weekly during the sprint planning meeting. Daily standup meetings are utilized to adjust the project activities during the sprint. <br /><br /> All the project interfaces including the customer, supplier, other business units, etc. along with the communication-related activities are recorded and maintained in the project communication and interface matrix available here: <a>PasteLinkHere</a> <br /><br />All the open topics are recorded and monitored using the project open points list available here: <a>PasteLinkHere</a>"
+        },
+        {
+          "id": "subitem7",
+          "name": "Review, report, and ensure consistency",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "<ol><li>The consistency between the various project management artifacts is important. For example, the work packages identified during the project estimation shall match the work packages defined in the project schedule</li></ol>",
+          "tailoringExample": "The project status report shared with the customers on weekly basis can be found here: <a>PasteLinkHere</a> <br /><br /> The project status report shared with the management on monthly basis can be found here: <a>PasteLinkHere</a> <br /><br /> The review findings are tracked and monitored to closure using the Jira tickets. These tickets can be identified by filtering Ticket Type = Review and Component = Project Management in the Jira project NameOfYourJiraProject <br /><br /> All the project management review protocols are available here: <a>PasteLinkHere</a> <br /><br />The organizational lessons learned database is available here:<a>PasteLinkHere</a>"
+        },
+        {
+          "id": "subitem8",
+          "name": "Risk Management",
+          "data": "<p>The project risks shall be identified and monitored and corrective actions are taken to mitigate the risk. The risk sources can vary such as budget,   timeline, resources, etc. The risk management lifecycle is as shown below: </p><table class='process_table_main' cellspacing='0'><tbody><tr><td >Initial state</td><td >Transitioned state</td><td >Transition rationale</td></tr><tr><td >Not available</td><td >Open</td><td >The risk is identified in the project and recorded in the risk management system.</td></tr><tr><td >Open</td><td >Analysis</td><td >The risk analysis is initiated.</td></tr><tr ><td >Analysis</td><td >Rejected</td><td >Analysis results showed that identified risk is not valid. No risk treatment measures are required.</td></tr><tr ><td >Analysis</td><td >Monitor</td><td >Risk treatment is initiated based on the treatment actions of actions identified during the risk analysis.</td></tr><tr ><td >Monitor</td><td >Corrective action</td><td >When risk mitigation is not achieved, take corrective actions to reduce or avoid the identified risk.</td></tr><tr><td >Monitor</td><td >Closed</td><td >The risk mitigation is successful.</td></tr><tr><td >Corrective action</td><td >Closed</td><td >The risk mitigation through corrective action is successful.</td></tr></tbody></table> <p>The following are the phases of the risk management lifecycle:</p>",
+          "bestPractices": "<ol><li>Always record the risks soon after the identification.</li><li>Continue to monitor the risks to avoid any negative impact on the project until it's mitigated or in the case when the project decides not to mitigate the risk</li><li>The risk treatment actions and the corrective action shall be practical (implementable) and effective rather than just theoretical.</li></ol>",
+          "tailoringExample": "All the identified risks in the project are monitored and tracked to closure using the ticket type Risk Management in Jira. <br /><br /> The following criteria are applied for the various risk severity levels: <br /><br /> <b>Major : </b>  High priority, shall be mitigated within 2 weeks. A valid justification has to be documented if the project team decides not to mitigate the risk.  <br /><br /> <b>Medium : </b>  : Medium priority, mitigated within 4 weeks. A valid justification has to be documented if the project team decides not to mitigate the risk.  <br /><br /> <b>Minor : </b>  Low priority, Mitigated within 8 weeks. A valid justification has to be documented if the project team decides not to mitigate the risk."
+        },
+        {
+          "id": "subitem9",
+          "name": "Agree and Communicate",
+          "data": "The work products shall be made available to all the relevant parties. Any update to the work products shall also be communicated to all the relevant parties promptly.",
+          "bestPractices": "<ol><li>Describe how this communication is handled in your organization e.g. Using emails, Jira tickets, Configuration item list, etc.</li></ol>",
+          "tailoringExample": "All the updated project management work products are communicated to the relevant interfaces via internal release emails. The internal release email is triggered by the Configuration Manager which shall contain at a minimum, the following information: <br /><br /> <ol><li>Work product name</li> <li>Release version</li> <li>Release date</li> <li>Work product storage path</li></ol>"
+        }
+      ]
+    },
+    {
+      "id": "item4",
+      "name": "Roles, Responsibilities, and Authorities",
+      "data": "<p>The participating roles, responsibilities, and authority are described as shown below:</p><table class='process_table_main' cellspacing='0'><tbody><tr><td  ><p class='s2'>Role Name </p></td> <td  >Responsibilities,Requirements, Authorities</td></tr><tr><td><p class='s8'>Project Manager</p> </td><td ><div class='s2'>Responsibilities Planning, support, and control of offer and series projects  Responsibility for compliance with cost,quality, deadline, specifications Contact person for  feasibility, profitability, and project risk during the inquiry phase Responsible for all technical and administrative tasks Support and implementation of technical change management Requirements Bachelor‘s in engineering, science, or business administration 5+ years experience in automotive (or similar industry) Fluent in English (Mandatory) Outstanding communication, coordination, and organization skills Good PC knowledge, incl. PowerPoint, MS Word, and ExcelExperience with Automotive SPICE Authorities Escalation of resource, budget, and timeline-related risks to management Withhold or delay the release if the release  criteria are not met Allocate budget and resources for the project activities Has access rights to the entire project directory </div></td></tr><tr><td ><p class='s8'>Software Requirement Engineer</p></td><td ><p class='s2'> Responsibilities Identification, analysis, and evaluation of requirements based on system and customer specifications  Understand, consolidate and detail new requirements and acceptance criteria from our internal and external customers and represent them to our software development teams Creationof deviation lists in coordination with the responsible departments Monitoring of compliance withquality rules for the  requirements according to ASPICE Requirements  Studies in electrical engineering, computer science mechatronics, or a comparable subject Experience in writing software requirements Familiar with a common lifecycle management tool (e.g. Siemens Polarion, Atlassian Jira) Knowledge of the requirements management software IBM DOORS  Experience with  Automotive SPICE Fluent in English (Mandatory) Authorities No authorities</p> </td></tr><tr><td style='border-top-style:solid;border-top-color:#DDDDDD;border-left-style:solid;border-left-width:1pt;border-left-color:#DDDDDD;border-right-style:solid;border-right-color:#DDDDDD'><p class='s8' style='text-indent: 0pt;text-align: left;padding: 0 1rem;'>Software Architect</p> </td> <td style='padding: 0 1rem;border-top-style:solid;padding: 0 1rem;border-top-color:#DDDDDD;border-left-style:solid;border-left-width:1pt;border-left-color:#DDDDDD;border-right-style:solid;border-right-color:#DDDDDD'><p class='s2'>Responsibilities Define software components,relations between them, external interfaces, and dynamic behavior Analyze customer requirements, derive software architecture requirements, and ensure their traceability in the architectural design Ensure that architectural design can be validated by the software integration test Support the project team regarding the efficiency, quality, and maintainability of the software Discuss software architecture topics with the customer Work in an agile environment Requirements Several years of technical experience in complex embedded systems, preferably in embedded automotive systems Proven track record as Software Architect (m/f/d) Good understanding of the impact of design decisions on quality, reliability, and performance Familiar with software development processes and the V-model Familiar with agile methods such as Scrum or Kanban Autonomous, proactive, team-oriented, and self-reliant way of working combined with a structured and precise working style You are fluent in English    Authorities No authorities</p></td></tr><tr style='height:237pt'><td style='border-top-style:solid;border-top-width:1pt;border-top-color:#DDDDDD;border-left-style:solid;border-left-width:1pt;border-left-color:#DDDDDD;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#DDDDDD;border-right-style:solid;border-right-width:1pt;border-right-color:#DDDDDD'><p style='padding-top: 3pt;padding-left: 4pt;text-indent: 0pt;text-align: left;padding: 0 1rem;'>Software Developer</p></td><td style='width:381pt;padding: 0 1rem;border-top-style:solid;border-top-width:1pt;border-top-color:#DDDDDD;border-left-style:solid;border-left-width:1pt;border-left-color:#DDDDDD;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#DDDDDD;border-right-style:solid;border-right-width:1pt;border-right-color:#DDDDDD'><p class='s2' style='padding-top: 4pt;padding-left: 4pt;text-indent: 0pt;text-align: left;'> Responsibilities Design software unit design and implement the unit design requirements in software Ensure that the unit design can be validated by the software unit test Support the project team regarding the efficiency, quality, and maintainability of the software Discuss software development topics with the customer Work in an open agile working environment and cooperate closely with other team members like hardware developers, architects, and testers Requirements University degree in Electrical Engineering, Computer Science, or a related field of study Practical experience in distributed function development Advanced experience in SW development (C/C++, MATLAB/Simulink, QT, CGI Studio) Experience in automotive bus systems A background in the automotive industry is a plus High communication and teamwork skills Familiar with software development processes and the V-model Familiar with agile methods such as Scrum or Kanban You are fluent in English Authorities No authorities</p></td></tr><tr style='height:199pt'> <td style='border-top-style:solid;border-top-width:1pt;border-top-color:#DDDDDD;border-left-style:solid;border-left-width:1pt;border-left-color:#DDDDDD;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#DDDDDD;border-right-style:solid;border-right-width:1pt;border-right-color:#DDDDDD'><p style='padding-top: 4pt;padding-left: 4pt;text-indent: 0pt;text-align: left;padding: 0 1rem;'> Software Unit Tester</p></td><td style='padding: 0 1rem;width:381pt;border-top-style:solid;border-top-width:1pt;border-top-color:#DDDDDD;border-left-style:solid;border-left-width:1pt;border-left-color:#DDDDDD;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#DDDDDD;border-right-style:solid;border-right-width:1pt;border-right-color:#DDDDDD'><p class='s2' style='padding-top: 4pt;padding-left: 4pt;text-indent: 0pt;text-align: left;'>Responsibilities Design of test cases and execution of manual and automated software unit tests in C/C++ Analysis of software unit requirements documents Specifying test cases based on the software unit design in DOORS Evaluation of the test cases with tools such as Tessy. Requirements University degree in Electrical Engineering, Computer Science, or a related field of study Ideally ISTQB certificate and initial experience in software unit testing A background in the automotive industry is a plus High communication and teamwork skills Familiar with software development processes and the V-model Familiar with agile methods such as Scrum or Kanban You are fluent in English Authorities No authorities</p></td></tr><tr style='height:46pt'><td style='border-top-style:solid;border-top-width:1pt;border-top-color:#DDDDDD;border-left-style:solid;border-left-width:1pt;border-left-color:#DDDDDD;border-right-style:solid;border-right-width:1pt;border-right-color:#DDDDDD'><p style='padding-top: 4pt;padding-left: 4pt;text-indent: 0pt;text-align: left;padding: 0 1rem;'>Software Integrator</p></td><td style='padding: 0 1rem;width:381pt;border-top-style:solid;border-top-width:1pt;border-top-color:#DDDDDD;border-left-style:solid;border-left-width:1pt;border-left-color:#DDDDDD;border-right-style:solid;border-right-width:1pt;border-right-color:#DDDDDD'><p class='s2' style='padding-top: 4pt;padding-left: 4pt;text-indent: 0pt;text-align: left;'>Responsibilities  Design of test cases and execution of manual and automated software unit tests in C/C++ Analysis of software unit requirements documents Specifying test cases based on the software unit design in DOORS Evaluation of the test cases with tools such as Tessy. Requirements University degree in Electrical Engineering, Computer Science, or a related field of study Ideally ISTQB certificate and initial experience in software unit testing A background in the automotiveindustry is a plus High communication and teamwork skills Familiar with software development processes and the V-model Familiar with agile methods such as Scrum or Kanban You are fluent in English Authorities No authorities</p></td></tr></tbody></table>",
+      "tailoringExample": "Add additional role if required."
+    },
+    {
+      "id": "item5",
+      "name": "Work Products and Templates",
+      "data": "<p>The following work products are created as a result of this process:</p> <ul><li>Project Plan (Template)</li><li>Project Status Report - Customer (Template)</li><li> Project Status Report - Management (Template)</li><li>Project Management Review Protocol (Template)</li><li>Project Communication and Interface Matrix (Template)</li><li>Project Tool List (Template)</li><li>Project Open Points List (Template)</li><li>Project Effort Estimation Document (Template)</li><li> Minutes of Meeting (Template)</li><li>Skill Matrix and Training Plan (Template)</li><li>  Feasibility Study Report (Template)</li><li> Communication Protocol (PasteTemplateLinkHere) </li><li>Change Management Protocol (PasteTemplateLinkHere)</li></ul>"
+    },
+    {
+      "id": "item6",
+      "name": "Tailoring Guidelines",
+      "data": "<ol><li>Any section in this process can be tailored to add project-specific information or exclude any information which is out of scope.</li></ol>",
+      "bestPractices": "<ol><li>There are no limits on the budget, volume, team size, documentation, etc. Organizations can set their tailoring guidelines based on what may vary between different types of projects.</li></ol>"
+    }
+  ],
+  "standardProcess": {
+    "$oid": "6433881c9c7b3b27d33a4e8f"
+  },
+  "__v": 0,
+  "not_in_scope": "Page is not found in bad request",
+  "version": "1.0"
+},{
+  "_id": {
+    "$oid": "643f6651ae9518fe687c1290"
+  },
+  "name": "SUP.8 Configuration Management",
+  "main_description": [
+    {
+      "id": "item1",
+      "name": "Objective",
+      "data": "The objective of this process is to ensure the integrity of the project and process work products and to ensure their availability to all the relevant stakeholders.",
+      "bestPractices": "The objective described is according to ASPICE Version 3.1 and VDA Automotive SPICE Guidelines Edition 2017. It is sufficient to achieve the required maturity up to ASPICE Level 3. Use the below table to extend the objective of the process if necessary.",
+      "tailoringExample": ""
+    },
+    {
+      "id": "item2",
+      "name": "Activity Diagram",
+      "data": "The activity diagram of the process SUP.8 Configuration Management is as shown below:"
+    },
+    {
+      "id": "item3",
+      "name": "Activities",
+      "data": "The following activities are performed in the scope of the process SUP.8 Configuration Management:",
+      "subitem": [
+        {
+          "id": "subitem1",
+          "name": "Define the configuration management strategy",
+          "data": "The configuration management strategy is created so that it shall include the work products used and created in the scope of the project from various disciplines such as system, software, electronic, etc., development locations, and process areas such as engineering, management, and supporting processes. At a minimum following aspects shall be considered: <br/> <br /> <ul><li>If the different solutions or variants are planned for different disciplines, locations, or processes then an overall strategy shall be defined.</li><li>The definition of tools and repositories</li><li>The definition of tools and repositories</li><li>The definition of the access rights</li><li>The definition of tools and repositories</li><li>The identification of configuration items and naming conventions</li><li>A guideline to create the revision of configuration item</li><li>Criteria for creation and maintenance of baselines</li><li>Branching and merging strategy</li></ul>All the relevant configuration items shall be identified and documented in the <a> Configuration Item List.</a>",
+          "bestPractices": "<ol><li>Please keep the above section unchanged as it covers all the required aspects as per ASPICE Version 3.1 and VDA Automotive SPICE Guidelines Edition 2017.</li></ol>",
+          "tailoringExample": "None"
+        },
+        {
+          "id": "subitem2",
+          "name": "Establish a configuration management system and branch management",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "Please keep the above section unchanged as it covers all the required aspects as per ASPICE Version 3.1 and VDA Automotive SPICE Guidelines Edition 2017.",
+          "tailoringExample": "None"
+        },
+        {
+          "id": "subitem3",
+          "name": "Baselines and releases",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "Please keep the above section unchanged as it covers all the required aspects as per ASPICE Version 3.1 and VDA Automotive SPICE Guidelines Edition 2017.",
+          "tailoringExample": "None"
+        },
+        {
+          "id": "subitem4",
+          "name": "Consistency and management of storage",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "Please keep the above section unchanged as it covers all the required aspects as per ASPICE Version 3.1 and VDA Automotive SPICE Guidelines Edition 2017.",
+          "tailoringExample": "None"
+        },
+        {
+          "id": "subitem5",
+          "name": "Communicate and report status",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "Describe how this communication is handled in your organization e.g. Using emails, Jira tickets, Configuration item list, etc.",
+          "tailoringExample": "All the updated configuration management work products are communicated to the relevant interfaces via internal release emails. The internal release email is triggered by the Configuration Manager which shall contain at a minimum, the following information:  <a>PasteLinkHere</a> <br /><br/>All the updated quality management work products are communicated to the relevant interfaces via internal release emails. The internal release email is triggered by the Configuration Manager which shall contain at a minimum, the following information <ol><li>Work product name</li><li>Release version</li><li>Release date</li><li>Work product storage path</li></ol>"
+        }
+      ]
+    },
+    {
+      "id": "item4",
+      "name": "Identification of configuration items",
+      "data": "A detailed process will be added here."
+    },
+    {
+      "id": "item5",
+      "name": "Inspection Process",
+      "data": "The identification of the configuration items includes steps involved in the figure below: <br /> A detailed process will be added here.",
+      "bestPractices": "None",
+      "tailoringExample": "The configuration items in the projects are identified and placed as and when they are created. Configuration Manager is responsible for this activity."
+    },
+    {
+      "id": "item6",
+      "name": "Naming conventions",
+      "data": "The following naming conventions shall be used to name the configuration items:<br /><br /> <b>Release baselines</b> <br/>A detailed process will be added here.<br /><br /> <b>Project repositories and sub-repositories</b> <br/>A detailed process will be added here.<br /><br /> <b>Project sub-repository</b> <br/>A detailed process will be added here. <b>Project work products</b> <br/>A detailed process will be added here.",
+      "bestPractices": "None",
+      "tailoringExample": "The above naming convention does not apply to the configuration items received from the customer or the other external project stakeholders. The names of such configuration items are maintained as is"
+    },
+    {
+      "id": "item7",
+      "name": "Versioning guideline",
+      "data": "A detailed process will be added here.",
+      "bestPractices": "List all such tools or configuration items in the tailoring section in which 3-digit versioning is not allowed.",
+      "tailoringExample": "The above-described versioning guidelines do not apply to such project tools (For example Doors) where 3-digit versioning can not be followed."
+    },
+    {
+      "id": "item8",
+      "name": "Tools",
+      "data": "A detailed process will be added here.",
+      "bestPractices": "Configuration items also include the hardware and mechanical parts. If any other tool is used specifically to handle the configuration management, they must be listed above.",
+      "tailoringExample": "In the scope of the project based on the customer request, the following tools are used: <br /> <br/><ul><li>ConfigMgmtTool 1</li><li>ConfigMgmtTool 2</li></ul>"
+    },
+    {
+      "id": "item9",
+      "name": "Repositories",
+      "data": "A detailed process will be added here.",
+      "bestPractices": "None",
+      "tailoringExample": "Based on the project requirement, the following additional folders are added: <br /> <br/><ul><li>FolderName1</li><li>FolderName 2</li></ul>"
+    },
+    {
+      "id": "item10",
+      "name": "Creation and Management of Baselines",
+      "data": "A baseline is a version of the configuration item which is formally reviewed and approved for further use in the project. The Configuration Manager is responsible for the creation of the baseline.",
+      "bestPractices": "None",
+      "tailoringExample": "None"
+    },
+    {
+      "id": "item11",
+      "name": "Trunk, branch, and tag",
+      "data": "A detailed process will be added here."
+    },
+    {
+      "id": "item12",
+      "name": "Branching model",
+      "data": "The project teams shall use the following branching model: <br /><br /> <b>Feature-based trunk model</b> <br /> A detailed process will be added here",
+      "bestPractices": "If any other type of branching model is used in the organization, it can be described in the tailoring sections and followed instead of the above-described branching model.",
+      "tailoringExample": "None"
+    },
+    {
+      "id": "item13",
+      "name": "Configuration Item Status",
+      "data": " A detailed process will be added here",
+      "bestPractices": "If any other type of status model is used in the organization, it can be described in the tailoring section and followed in the project.",
+      "tailoringExample": "None"
+    },
+    {
+      "id": "item14",
+      "name": "Access rights",
+      "data": "The access rights are defined to restrict access to the project information to relevant parties. The following access rights privileges are defined in the project: <br /><br /> <table class='process_table_main' cellspacing='0'><tbody><tr><td  >Information Type</td><td  >Access rights</td><td  >Owner</td></tr><tr><td >Project repository</td><td >Project team</td><td >Configuration manager</td></tr><tr><td >Jira</td><td >Project team</td><td >Configuration manager</td></tr><tr><td >Confluence</td><td >Project team</td><td >Configuration manager</td></tr><tr><td >Doors</td><td >Project team</td><td >Configuration manager</td></tr><tr><td >Source code</td><td >Project team</td><td >Configuration manager</td></tr><tr><td >Backups</td><td >Project manager Configuration manager</td><td >IT manager</td></tr></tbody></table>",
+      "bestPractices": "Any other types of access rights used in the project can be described in the project-specific tailoring section.",
+      "tailoringExample": "None"
+    },
+    {
+      "id": "item15",
+      "name": "Backups",
+      "data": "All the configuration items shall be backed up during and after the execution of the project. The IT Manager is responsible to initiate, maintain and troubleshoot any problems in the backups. Following rules shall apply: <br /> <br /> <b>Till End of Production:<b/> <br /> <table class='process_table_main' cellspacing='0'><tbody><tr><td  >Configuration Item Type</td><td  >Backup Frequency</td><td  >Minimum Number of Backup Instances</td></tr><tr><td >Project repository including source code</td><td >Weekly</td><td >10</td></tr><tr><td >Doors (All Configuration Items stored in Doors)</td><td >Weekly</td><td >10</td></tr><tr><td >Jira, Confluence</td><td >Daily</td><td >30</td></tr><tr><td >Emails</td><td >Weekly</td><td >30</td></tr><tr><td >All other configuration items which can be backed up (Other than hardware and mechanical components)</td><td >Weekly</td><td>10</td></tr></tbody></table> <br /> After the end of production: <br /> A single instance of all the configuration items shall be backed up for at least 15 years.",
+      "bestPractices": "Any other backups which are not listed above can be described in the tailoring section.",
+      "tailoringExample": "None"
+    },
+    {
+      "id": "item16",
+      "name": "Reviews",
+      "data": "A detailed process will be added here.",
+      "bestPractices": "None",
+      "tailoringExample": "None"
+    },
+    {
+      "id": "item17",
+      "name": "Process Roles",
+      "data": "The following roles participate in the performance of the activities in this process: <br /><ul><li>Project Manager (Accountable)</li><li>Configuration Manager (Responsible)</li><li>Quality Assurance Manager (Supporting)</li><li>Problem Resolution Manager (Supporting)</li><li>Change Manager (Supporting)</li><li>Supplier Manager (Supporting)</li><li>Software Requirement Engineer (Supporting)</li><li>Software Architect (Supporting)</li><li>Software Developer (Supporting)</li><li>Software Integrator (Supporting)</li><li>Software Unit Tester (Supporting)</li><li>Software Integration Tester (Supporting)</li><li>Software Qualification Tester (Supporting)</li><li>System Requirement Engineer (Supporting)</li><li>System Architect (Supporting)</li><li>System Integrator (Supporting)</li><li>System Integration Tester (Supporting)</li><li>System Qualification Tester (Supporting)</li><li>Hardware Requirement Engineer (Supporting)</li><li>Hardware Architect (Supporting)</li><li>Hardware Design Engineer (Supporting)</li><li>Hardware Tester (Supporting)</li><li>Purchasing Manager (Informed)</li></ul>",
+      "bestPractices": "If you add any additional roles as per your organizational requirement, make sure the roles are described here",
+      "tailoringExample": "None"
+    },
+    {
+      "id": "item18",
+      "name": "Output Work Products",
+      "data": "The following work products are created as a result of this process: <br /><ol><li>Configuration Management Plan.</li><li>Configuration Item List (Template)</li><li>Configuration Management Review Protocol (Template)</li><li>Communication Protocol (PasteTemplateLinkHere)</li><li>Change Management Protocol (PasteTemplateLinkHere)</li><li>Problem Resolution Protocol (PasteTemplateLinkHere)</li></ol>"
+    },
+    {
+      "id": "item19",
+      "name": "Tailoring Guidelines",
+      "data": "<ol><li>Any section in this process can be tailored to add project-specific information or exclude any information which is out of scope.</li><li>If the 3-digit versioning is not possible in any of the tools, then the tool-allowed versioning format can be used.</li></ol>",
+      "bestPractices": "None",
+      "tailoringExample": "None"
+    }
+  ],
+  "standardProcess": {
+    "$oid": "6433881c9c7b3b27d33a4e8f"
+  },
+  "__v": 0,
+  "not_in_scope": "requierd this page",
+  "version": "1.0"
+},{
+  "_id": {
+    "$oid": "643f6da4ae9518fe687c1307"
+  },
+  "name": "SWE.1 Software Requirements Analysis",
+  "main_description": [
+    {
+      "id": "item1",
+      "name": "Objective",
+      "data": "The objective of this process is to analyze the System Requirements and System Architecture and to derive the related Software Requirements.",
+      "bestPractices": "The objective described is according to ASPICE Version 3.1 and VDA Automotive SPICE Guidelines Edition 2017. It is sufficient to achieve the required maturity up to ASPICE Level 3. Use the below table to extend the objective of the process if necessary.",
+      "tailoringExample": ""
+    },
+    {
+      "id": "item2",
+      "name": "Activity Diagram",
+      "data": "The activity diagram of the process SWE.1 Software Requirements Analysis is as shown below:"
+    },
+    {
+      "id": "item3",
+      "name": "Activities",
+      "data": "The following activities are performed in the scope of the process SWE.1 Software Requirements Analysis",
+      "subitem": [
+        {
+          "id": "subitem1",
+          "name": "Derivation of Software Requirements",
+          "data": "A detailed process will be added here ",
+          "bestPractices": "<ol><li>Considering that the functional contents are added over releases, the software requirements shall be iteratively updated.</li><li>If the software is not functional safety or cybersecurity relevant, then such topics can be tailored to be out of scope.</li><li>The tool to derive and store the software requirements can be changed based on customer requirements.</li><li>It is not mandatory to derive the software requirements from the system requirements. If the software is developed as reusable generic software, the platform requirements can be used</li><li>Use the SMART (Specific, Measurable, Achievable, Relevant, and Time-Bound) principle while deriving the software requirements.</li></ol>",
+          "tailoringExample": "<ul><li>The Software Requirements Specification is stored here: Link</li><li>As the software is non-safety critical, functional safety-related requirements are considered out of scope.</li><li>The software requirements are derived and stored in the tool DOORS.</li></ul>"
+        },
+        {
+          "id": "subitem2",
+          "name": "Structure and Analysis of Software Requirements",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "<ol><li>Insufficient memory or other resources in the controller during the project may indicate inappropriate analysis. Make sure that the impact on the operating environment such as microcontroller resources including memory, processor time, and peripheral resources are well studied and documented at the start of the project.</li><li></li></ol>",
+          "tailoringExample": "The analysis results of the software requirements are recorded in the Software Requirements Review & Analysis Protocol placed here: Link"
+        },
+        {
+          "id": "subitem3",
+          "name": "Definition of verification criteria",
+          "data": "A detailed process will be added here. <br/><br /> The verification types are assigned to each of the derived software requirements as below <br /><table class='process_table_main' cellspacing='0'><tbody><tr><td  >Requirement Type</td><td  >Verification Type</td></tr><tr><td >Functional</td><td >“Software Qualification Test” or “Review”</td></tr><tr><td >Non-Functional</td><td >Review</td></tr></tbody></table> ",
+          "bestPractices": "<ol><li>The verification criteria are described during the creation of software requirements.</li></ol>",
+          "tailoringExample": "None"
+        },
+        {
+          "id": "subitem4",
+          "name": "Traceability and consistency of Software Requirements",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "The Software Requirements Traceability Matrix is placed here: Link",
+          "tailoringExample": "<ol><li>Traceability tools such as Reqtify can be used to generate traceability reports between software requirements specification and system requirements/system architecture</li></ol>"
+        },
+        {
+          "id": "subitem5",
+          "name": "Review of Software Requirements",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "",
+          "tailoringExample": "The Software Requirements Traceability Matrix is placed here: Link"
+        },
+        {
+          "id": "subitem6",
+          "name": "Agree and Communicate Software Requirements",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "Describe how this communication is handled in your organization e.g. Using emails, Jira tickets, Configuration item list, etc.",
+          "tailoringExample": "Any updates to the software requirements are communicated using the Jira tickets."
+        }
+      ]
+    },
+    {
+      "id": "item4",
+      "name": "Process Roles",
+      "data": "The following roles participate in the performance of the activities in this process: <br /><ul><li>Software Requirement Engineer (Responsible)</li><li>Project Manager (Accountable)</li><li>Software Architect (Supporting)</li><li>Software Qualification Tester (Supporting)</li><li>System Requirement Engineer (Supporting)  </li><li>System Architect (Supporting)</li><li>Quality Assurance Manager (Supporting)</li><li>Configuration Manager (Supporting)</li><li>Change Manager (Supporting)</li><li>Problem Manager (Supporting)</li><li>Supplier Manager (Supporting)</li></ul>"
+    },
+    {
+      "id": "item5",
+      "name": "Output Work Products",
+      "data": "The following work products are created as a result of this process: <br /><ol><li>Software Requirement Specification Document (Template)</li><li>Software Requirements Review & Analysis Protocol (Template)</li><li>Traceability Matrix (PasteTemplateLinkHere)</li><li>Communication Protocol (PasteTemplateLinkHere)</li><li>Change Management Protocol (PasteTemplateLinkHere)</li></ol>"
+    },
+    {
+      "id": "item6",
+      "name": "Tailoring Guidelines",
+      "data": "<ol><li>Any section in this process can be tailored to add project-specific information or exclude any information which is out of scope.</li><li>Tools used to derive and store the software requirements can be changed based on the customer requirements.</li></ol>",
+      "tailoringExample": "None"
+    }
+  ],
+  "project": {
+    "$oid": "642ac3e083812e235f6473a6"
+  },
+  "standardProcess": {
+    "$oid": "6433881c9c7b3b27d33a4e8f"
+  },
+  "__v": 0,
+  "version": "1.0"
+},{
+  "_id": {
+    "$oid": "643f725fae9518fe687c1344"
+  },
+  "name": "SUP.1 Quality Assurance",
+  "main_description": [
+    {
+      "id": "item1",
+      "name": "Objective",
+      "data": "The objective of this process is to ensure that the work products and processes comply with the predefined plan and criteria and that further non-conformances are resolved and further prevented.",
+      "bestPractices": "The objective described is according to ASPICE Version 3.1 and VDA Automotive SPICE Guidelines Edition 2017. It is sufficient to achieve the required maturity up to ASPICE Level 3. Use the below table to extend the objective of the process if necessary.",
+      "tailoringExample": ""
+    },
+    {
+      "id": "item2",
+      "name": "Activity Diagram",
+      "data": "The activity diagram of the process SUP.1 Quality Assurance is as shown below:"
+    },
+    {
+      "id": "item3",
+      "name": "Activities",
+      "data": "The following activities are performed in the scope of the process SUP.1 Quality Assurance:",
+      "subitem": [
+        {
+          "id": "subitem1",
+          "name": "Quality assurance strategy",
+          "data": "The quality assurance strategy is defined to ensure the independent and objective quality assurances of the work products and processes at the project level without any conflict of interest. The independence can be financial or by the organizational structure. It means the quality assurance manager or engineer shall be independent of the project team and have sufficient authority to bind the project to adhere to the quality processes including escalation to the management when necessary. The quality assurance of the deliveries from the supplier shall also be described in the strategy. <br/><br /> The quality assurance is described based on the following: <br /> <ul><li>Automotive SPICE, Version 3.1</li><li>Automotive SPICE Guidelines, 1st edition, September 2017</li><p>In addition based on the project requirements, the following can be considered:</p><li>Customer Requirements</li></ul>",
+          "level": [
+            {
+              "id": "level1",
+              "name": "Review methods",
+              "data": "A detailed process will be added here.",
+              "tailoringExample": "The project quality review report is available here: <a>PasteLinkHere</a>",
+              "bestPractices": "<ol><li>The quality work products shall also need to undergo a quality review.</li> <li>It is not mandatory that all the project work products undergo a quality review. It can be explicitly stated which review methods apply for which work product</li><li>To maintain sufficient independence, if a quality engineer produces quality work products then the quality manager may perform a quality review on the quality work products. If there is only a quality manager in the project responsible to produce the quality work products then the project manager may perform the quality review of quality work products.</li></ol>"
+            }
+          ],
+          "bestPractices": "<ol><li>Check on the additional quality guidelines required by the customer and other stakeholders. List them above</li></ol>",
+          "tailoringExample": "In the scope of the project, compliance with the following standard is considered: <br /><br /> <ul><li>KGAS v3.5</li></ul>"
+        },
+        {
+          "id": "subitem2",
+          "name": "Quality activities",
+          "data": "A detailed process will be added here.",
+          "level": [
+            {
+              "id": "level1",
+              "name": "Internal Process Assessment",
+              "data": "A detailed process will be added here.",
+              "tailoringExample": "<ol><li>All the planned quality activities are described in the project plan.  </li> <li>The internal and external ASPICE assessments are planned and monitored in the project plan available here: PasteLinkHere</li><li>The internal ASPICE assessment report is available here: PasteLinkHere</li></ol>",
+              "bestPractices": "<ol><li>Plan the internal and external assessment in the project plan. Allocate time and resources to complete the assessments.</li></ol>"
+            }
+          ],
+          "bestPractices": "<ol><li>Plan the internal and external assessment in the project plan. Allocate time and resources to complete the assessments.</li></ol>",
+          "tailoringExample": "<ul><li>All the planned quality activities are described in the project plan.</li><li>The internal and external ASPICE assessments are planned and monitored in the project plan available here: <a>PasteLinkHere</a></li><li>The internal ASPICE assessment report is available here: <a>PasteLinkHere</a></li></ul>"
+        },
+        {
+          "id": "subitem3",
+          "name": "Resolution of non-conformances",
+          "data": "A detailed process will be added here."
+        },
+        {
+          "id": "subitem4",
+          "name": "Escalation mechanism",
+          "data": "The escalation mechanism has to be established according to the quality assurance strategy so that it should cover all the relevant stakeholders including technical, quality, management, customer, etc. After the escalation, the stakeholders shall run the corrective actions. <br/><br />As depicted in the escalation mechanism, a separate escalation path is defined through the quality team and quality manager. A sufficient level of independence is maintained to ensure the objectivity and effectiveness of the escalation process.",
+          "bestPractices": "<ol><li>The used estimation method shall be explicitly mentioned.</li> <li>Resources shall also be planned for the project management activities along with allocation and monitoring to ensure the successful execution of project management activities.</li><li> A committee consisting of relevant experts can be formed to perform the estimation based on the chosen estimation method.</li></ol>",
+          "tailoringExample": "The estimation method NameOfEstimationMethod is used. The detailed project estimation can be found here: <a>PasteLinkHere</a> <br> The list of tools, licenses and hardware resources used in the project are available in the tool list placed here: <a>PasteLinkHere</a>"
+        },
+        {
+          "id": "subitem5",
+          "name": "Summarize and communicate",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "Describe how this communication is handled in your organization e.g. Using emails, Jira tickets, Configuration item list, etc.",
+          "tailoringExample": "The monthly quality report to the management is placed here: <a>PasteLinkHere</a> <br /><br /> The quality report to the customer is shared every month placed here:  <a>PasteLinkHere</a> <br /><br/>All the updated quality management work products are communicated to the relevant interfaces via internal release emails. The internal release email is triggered by the Configuration Manager which shall contain at a minimum, the following information <ol><li>Work product name</li><li>Release version</li><li>Release date</li><li>Work product storage path</li></ol>"
+        }
+      ]
+    },
+    {
+      "id": "item4",
+      "name": "Inspection Roles",
+      "data": "A detailed process will be added here."
+    },
+    {
+      "id": "item5",
+      "name": "Inspection Process",
+      "data": "The inspection review process shall follow the following steps:<br /><br /> A detailed process will be added here."
+    },
+    {
+      "id": "item6",
+      "name": "Process Roles",
+      "data": "The following roles participate in the performance of the activities in this process:<br /><br /> <ul><li>Quality Assurance Manager (Responsible)</li><li>Project Manager (Accountable)</li><li>Configuration Manager (Supporting)</li><li>Problem Resolution Manager (Supporting)</li><li>Change Manager (Supporting)</li><li>Supplier Manager (Supporting)</li><li>Software Requirement Engineer (Supporting)</li><li>Software Architect (Supporting)</li><li>Software Developer (Supporting)</li><li>Software Integrator (Supporting)</li><li>Software Unit Tester (Supporting)</li><li>Software Integration Tester (Supporting)</li><li>Software Qualification Tester (Supporting)</li><li>System Requirement Engineer (Supporting)</li><li>System Architect (Supporting)</li><li>System Integrator (Supporting)</li><li>System Integration Tester (Supporting)</li><li>System Qualification Tester (Supporting)</li><li>Hardware Requirement Engineer (Supporting)</li><li>Hardware Architect (Supporting)</li><li>Hardware Design Engineer (Supporting)</li><li>Purchasing Manager (Informed)</li></ul>"
+    },
+    {
+      "id": "item7",
+      "name": "Output Work Products",
+      "data": "The following work products are created as a result of this process:<br /><br /> <ol><li>Quality Assurance Plan</li><li>Quality Status Report to Management (Template)</li><li>Quality Status Report to Customer (Template)</li><li>Quality Assurance Review Protocol (Template)</li><li>Internal ASPICE Assessment Report (Template)</li><li>Communication Protocol (PasteTemplateLinkHere)</li><li>Change Management Protocol (PasteTemplateLinkHere)</li><li>Problem Resolution Protocol (PasteTemplateLinkHere)</li></ol>"
+    },
+    {
+      "id": "item8",
+      "name": "Tailoring Guidelines",
+      "data": "<ol><li>Any section in this process can be tailored to add project-specific information or exclude any information which is out of scope.</li></ol>",
+      "bestPractices": "None"
+    }
+  ],
+  "project": {
+    "$oid": "642ac3e083812e235f6473a6"
+  },
+  "standardProcess": {
+    "$oid": "6433881c9c7b3b27d33a4e8f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "643f765cae9518fe687c1386"
+  },
+  "name": "SYS.2 System Requirements Analysis",
+  "main_description": [
+    {
+      "id": "item1",
+      "name": "Objective",
+      "data": "The objective of this process is to analyze the stakeholder requirements to derive the system requirements which shall guide the design of the system.",
+      "bestPractices": "The objective described is according to ASPICE Version 3.1 and VDA Automotive SPICE Guidelines Edition 2017. It is sufficient to achieve the required maturity up to ASPICE Level 3. Use the below table to extend the objective of the process if necessary.",
+      "tailoringExample": ""
+    },
+    {
+      "id": "item2",
+      "name": "Activity Diagram",
+      "data": "The activity diagram of the process SYS.2 System Requirements Analysis is as shown below:"
+    },
+    {
+      "id": "item3",
+      "name": "Activities",
+      "data": "The following activities are performed in the scope of the process SYS.2 System Requirements Analysis:",
+      "subitem": [
+        {
+          "id": "subitem1",
+          "name": "Derive the System Requirements",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "<ol><li>Considering that the functional contents are added over releases, the system requirements shall be iteratively updated.</li><li>If the system is not functional safety or cybersecurity relevant, then such topics can be tailored to be out of scope.</li><li>The tool to derive and store the system requirements can be changed based on customer requirements.</li><li>It is not mandatory to derive the system requirements from the customer requirements. If the system is developed as a generic system, the platform requirements can be used.</li></ol>",
+          "tailoringExample": "<ul><li>The System Requirements Specification is stored here: Link</li><li>As the system is non-safety critical, functional safety-related requirements are considered out of scope.</li><li>The system requirements are derived and stored in the tool DOORS.</li></ul>"
+        },
+        {
+          "id": "subitem2",
+          "name": "Structure and Analysis of System Requirements",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "<ol><li>Insufficient memory or other resources in the controller during the project may indicate inappropriate analysis. Make sure that the impact on the operating environment such as microcontroller resources including memory, processor time, and peripheral resources are well studied and documented at the start of the project.</li><li>The analysis of the feasibility of requirements may vary from using a simple checklist to building a prototype. An appropriate analysis method shall be used based on the type and context of the project</li></ol>",
+          "tailoringExample": "The analysis results of the system requirements are recorded in the System Requirements Review & Analysis Protocol placed here: Link"
+        },
+        {
+          "id": "subitem3",
+          "name": "Definition of verification criteria",
+          "data": "A detailed process will be added here. <br/><br /> The verification types are assigned to each of the derived software requirements as below <br /><table class='process_table_main' cellspacing='0'><tbody><tr><td >Requirement Type</td><td >Verification Type</td></tr><tr><td >Functional</td><td >“Software Qualification Test” or “Review”</td></tr><tr><td >Non-Functional</td><td >Review</td></tr></tbody></table> ",
+          "bestPractices": "<ol><li>The verification criteria are described during the creation of software requirements.</li></ol>",
+          "tailoringExample": "None"
+        },
+        {
+          "id": "subitem4",
+          "name": "Traceability and consistency of System Requirements",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "The Software Requirements Traceability Matrix is placed here: Link",
+          "tailoringExample": "<ol><li>Traceability tools such as Reqtify can be used to generate traceability reports between software requirements specification and system requirements/system architecture</li></ol>"
+        },
+        {
+          "id": "subitem5",
+          "name": "Review of System Requirements",
+          "data": "A detailed process will be added here.",
+          "tailoringExample": "The System Requirements Traceability Matrix is placed here: Link"
+        },
+        {
+          "id": "subitem6",
+          "name": "Agree and Communicate Software Requirements",
+          "data": "A detailed process will be added here.",
+          "bestPractices": "Describe how this communication is handled in your organization e.g. Using emails, Jira tickets, Configuration item list, etc.",
+          "tailoringExample": "Any updates to the system requirements are communicated using the Jira tickets."
+        }
+      ]
+    },
+    {
+      "id": "item4",
+      "name": "Process Roles",
+      "data": "The following roles participate in the performance of the activities in this process: <br /><ul><li>Software Requirement Engineer (Responsible)</li><li>Project Manager (Accountable)</li><li>Software Architect (Supporting)</li><li>Software Qualification Tester (Supporting)</li><li>System Requirement Engineer (Supporting)  </li><li>System Architect (Supporting)</li><li>Quality Assurance Manager (Supporting)</li><li>Configuration Manager (Supporting)</li><li>Change Manager (Supporting)</li><li>Problem Manager (Supporting)</li><li>Supplier Manager (Supporting)</li></ul>"
+    },
+    {
+      "id": "item5",
+      "name": "Output Work Products",
+      "data": "The following work products are created as a result of this process: <br /><ol><li>Software Requirement Specification Document (Template)</li><li>Software Requirements Review & Analysis Protocol (Template)</li><li>Traceability Matrix (PasteTemplateLinkHere)</li><li>Communication Protocol (PasteTemplateLinkHere)</li><li>Change Management Protocol (PasteTemplateLinkHere)</li></ol>"
+    },
+    {
+      "id": "item6",
+      "name": "Tailoring Guidelines",
+      "data": "<ol><li>Any section in this process can be tailored to add project-specific information or exclude any information which is out of scope.</li><li>Tools used to derive and store the software requirements can be changed based on the customer requirements.</li></ol>",
+      "tailoringExample": "None"
+    }
+  ],
+  "project": {
+    "$oid": "642ac3e083812e235f6473a6"
+  },
+  "standardProcess": {
+    "$oid": "6433881c9c7b3b27d33a4e8f"
+  },
+  "__v": 0,
+  "version": "1.0"
+}]
